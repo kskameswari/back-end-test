@@ -22,9 +22,7 @@ import static org.mockito.Mockito.when;
  */
 @ExtendWith(MockitoExtension.class)
 class FlightInfoServiceImplTest {
-
-    // FIXED by applicant
-
+    
     @InjectMocks
     FlightInfoRepositoryImpl flightInfoRepository;
 
